@@ -1,1 +1,129 @@
 /* 오늘의 쇼핑 제안 */
+body {
+  position: relative;
+  width: 1022px;
+  margin: 0 auto;
+}
+h1 {
+  margin-top: 100px;
+}
+
+.main-logo {
+  width: 176px;
+  height: 40px;
+}
+
+.offer-headline {
+  margin-top: 48px;
+  height: 30px;
+  background-image: url("../../assets/icon/shopping.svg");
+  background-repeat: no-repeat;
+}
+.product-area {
+  margin-top: 24px;
+  display: flex;
+}
+.product-card {
+  position: relative;
+  width: 200px;
+  height: 270px;
+}
+
+.product-area img {
+  width: 160px;
+  height: 160px;
+  align-items: center;
+  margin: 14px 20px 12px 20px;
+}
+
+.sale-rate-badge {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 53px;
+  height: 30px;
+  background-color: var(--color-red-500);
+  color: var(--color-white);
+  font-weight: 600;
+  font-size: 16px;
+  border-radius: 0px 0px 4px 0px;
+}
+
+.product-name {
+  font-size: 14px;
+  font-weight: 400;
+  height: 17px;
+  margin: 0px 14px 12px 14px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.ship-free {
+  margin-left: 14px;
+  margin-bottom: 4px;
+  height: 17px;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16.8px;
+  color: var(--color-gray-700);
+}
+
+.ship-rocket-handler {
+  display: flex;
+  height: 16px;
+  width: 55px;
+  margin: 0px 0px 4px 14px;
+  align-items: center;
+}
+
+.ship-rocket-handler img {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+.star-review {
+  display: flex;
+  align-items: center;
+  position: relative;
+  height: 17px;
+  margin: 0 14px;
+}
+
+.star-review #r40 {
+  height: 14px;
+  width: 68px;
+  background-image: url("../../assets/sprites/rating-stars.png");
+  background-repeat: no-repeat;
+  background-position-y: -112px;
+}
+
+.star-review #r45 {
+  display: inline-block;
+  height: 14px;
+  width: 68px;
+  background-image: url("../../assets/sprites/rating-stars.png");
+  background-repeat: no-repeat;
+  background-position-y: -126px;
+}
+
+.star-review #r50 {
+  display: inline-block;
+  height: 14px;
+  width: 68px;
+  background-image: url("../../assets/sprites/rating-stars.png");
+  background-repeat: no-repeat;
+  background-position-y: -140px;
+}
+
+.star-review .review {
+  margin-left: 4px;
+  height: 17px;
+  font-size: 14px;
+  line-height: 16.8px;
+  font-weight: 400;
+  color: var(--color-gray-700);
+}
