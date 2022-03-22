@@ -93,7 +93,8 @@ h1 {
   margin: 0 14px;
 }
 
-.star-review #r40 {
+.star-review .star-r40 {
+  content: "15";
   height: 14px;
   width: 68px;
   background-image: url("../../assets/sprites/rating-stars.png");
@@ -101,7 +102,7 @@ h1 {
   background-position-y: -112px;
 }
 
-.star-review #r45 {
+.star-review .star-r45 {
   display: inline-block;
   height: 14px;
   width: 68px;
@@ -110,7 +111,7 @@ h1 {
   background-position-y: -126px;
 }
 
-.star-review #r50 {
+.star-review .star-r50 {
   display: inline-block;
   height: 14px;
   width: 68px;
