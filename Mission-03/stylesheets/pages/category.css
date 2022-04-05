@@ -37,7 +37,15 @@ h1 {
   border-bottom: 1px solid var(--color-brown-300);
 }
 
-.category-best-house .category-title-container {
+.category-best-kitchen {
+  display: flex;
+  height: 634px;
+  margin-top: 24px;
+  border-top: 1px solid var(--color-green-700);
+  border-bottom: 1px solid var(--color-green-700);
+}
+
+.category-title-container {
   margin-top: 48px;
   margin-left: 24px;
   width: 174px;
@@ -45,12 +53,18 @@ h1 {
 
 .category-best-house .category-title-container .category-title {
   color: var(--color-brown-300);
+}
+
+.category-best-kitchen .category-title-container .category-title {
+  color: var(--color-green-700);
+}
+
+.category-title-container .category-title {
   font-size: 24px;
   font-weight: 500;
   line-height: 27.6px;
   margin: 0px;
 }
-
 .shortcut {
   margin-top: 8px;
   font-size: 14px;
@@ -74,50 +88,64 @@ h1 {
   color: var(--color-back);
 }
 
-.category-best-house .hash-tag-container {
+.hash-tag-container {
   margin-top: 12px;
   width: 124px;
 }
 
-.category-best-house .hash-tag-box {
+.hash-tag-box {
   display: inline-block;
   margin-bottom: 12px;
   border: 1px solid var(--color-gray-400);
   height: 26px;
 }
 
-.category-best-house .hash-tag-box:first-child {
+.hash-tag-box:first-child {
   margin-top: 8px;
 }
 
-.category-best-house .hash-tag {
-  color: var(--color-brown-300);
+.hash-tag {
   font-size: 12px;
   font-weight: 400;
   margin: 6px 10px;
 }
 
-.category-best-house .slide-banner {
+.category-best-house .hash-tag {
+  color: var(--color-brown-300);
+}
+
+.category-best-kitchen .hash-tag {
+  color: var(--color-green-700);
+}
+
+.slide-banner {
   position: relative;
   width: 320px;
   height: 631px;
   margin: 1px 0 2px 0;
 }
 
-.category-best-house .slide-banner img {
+.slide-banner img {
   position: absolute;
   top: 0px;
   left: 0px;
   z-index: -1;
 }
-.category-best-house .slide-banner-text-box {
+
+.slide-banner-text-box {
   position: relative;
   width: 260px;
   height: 90px;
-  background-color: var(--color-brown-300);
   margin: 483px 30px 0 30px;
 }
 
+.category-best-house .slide-banner-text-box {
+  background-color: var(--color-brown-300);
+}
+
+.category-best-kitchen .slide-banner-text-box {
+  background-color: var(--color-green-700);
+}
 .slide-banner-text-box .text-line1 {
   position: absolute;
   height: 24px;
@@ -168,6 +196,13 @@ h1 {
   height: 634px;
 }
 
+.product-card-container .product-card-divider {
+  margin-top: 316.5px;
+  height: 1px;
+  width: auto;
+  background-color: var(--color-gray-600);
+}
+
 .product-card-container .product-card {
   float: left;
   width: 160px;
@@ -187,10 +222,10 @@ h1 {
   line-height: 16.8px;
   color: var(--color-back);
   text-shadow: rgba(0, 0, 0, 0.2);
+  margin-bottom: 12px;
 }
 
 .product-card-container .product-card .product-info-area .product-price-area {
-  margin-top: 12px;
   display: flex;
   align-items: center;
 }
@@ -223,4 +258,9 @@ h1 {
   font-size: 14px;
   font-weight: 400;
   line-height: 16.8px;
+  margin-bottom: 4px;
+}
+
+footer {
+  margin-top: 300px;
 }
