@@ -1,1 +1,177 @@
 /* 헤더 */
+.login-bar {
+  height: 34px;
+  background-color: var(--color-gray-100);
+}
+
+.login-bar-list {
+  list-style: none;
+  width: 1020px;
+  height: 34px;
+  margin: 0 auto 0 auto;
+  padding: 0;
+  display: flex;
+}
+
+.login-bar-item:nth-child(1) {
+  order: 3;
+  margin-left: 744px;
+}
+.login-bar-item:nth-child(2) {
+  order: 4;
+}
+.login-bar-item:nth-child(3) {
+  order: 5;
+}
+.login-bar-item:nth-child(4) {
+  order: 1;
+}
+.login-bar-item:nth-child(5) {
+  order: 2;
+}
+
+.login-bar-item {
+  display: inline-block;
+  font-size: 12px;
+  font-weight: 400;
+  height: 14px;
+  margin-top: 10px;
+  margin-left: 8px;
+}
+
+.header-container {
+  width: 1020px;
+  margin: 0 auto 0 auto;
+  display: grid;
+}
+
+.logo {
+}
+button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border: none;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.button--category {
+  background-color: var(--color-blue-600);
+  width: 110px;
+  height: 116px;
+  color: var(--color-white);
+  font-size: 12px;
+  font-weight: 400;
+  background-image: url("../../assets/icon/hamburger.svg");
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: 30px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  padding-bottom: 30px;
+}
+
+.search {
+  width: 516px;
+  height: 40px;
+  border: 1px solid var(--color-blue-600);
+  display: flex;
+}
+
+select {
+  /* -webkit-appearance: none; */
+  /* -moz-appearance: none; */
+  /* appearance: none; */
+}
+
+.drop-down {
+  width: 135px;
+  height: 40px;
+}
+
+#selector {
+  width: 135px;
+  height: 36px;
+  border: none;
+  border-right: 1px solid var(--color-gray-100);
+  font-size: 12px;
+  font-weight: 400;
+  color: var(--color-gray-700);
+  padding-left: 5px;
+}
+
+input {
+  color: var(--color-gray-700);
+  font-size: 12px;
+  font-weight: 400;
+  height: 38px;
+  width: 299px;
+  padding-left: 5px;
+  border: none;
+}
+
+.icon-mic {
+  width: 40px;
+  height: 38px;
+  background-color: #fff;
+}
+
+.icon-search {
+  width: 40px;
+  height: 38px;
+  background-color: #fff;
+}
+
+.type-navigation {
+  list-style: none;
+  height: 26px;
+  width: 755px;
+  display: flex;
+  border: 1px solid;
+  justify-content: space-between;
+  padding: 0;
+}
+
+.type-item {
+  display: inline-flex;
+  height: 26px;
+  font-size: 12px;
+  font-weight: 400;
+  align-items: center;
+  padding-left: 14px;
+  padding-right: 14px;
+}
+
+.my-coupang {
+  height: 58px;
+  width: 50px;
+  background-image: url("../../assets/icon/my-coupang.svg");
+  background-repeat: no-repeat;
+  background-color: #fff;
+  font-size: 12px;
+  font-weight: 400;
+  background-position: center;
+  background-position-y: top;
+  display: flex;
+  align-items: flex-end;
+  padding-bottom: 4px;
+}
+
+.cart {
+  height: 58px;
+  width: 50px;
+  background-image: url("../../assets/icon/cart.svg");
+  background-repeat: no-repeat;
+  background-color: #fff;
+  font-size: 12px;
+  font-weight: 400;
+  background-position: center;
+  background-position-y: top;
+  display: flex;
+  align-items: flex-end;
+  padding-bottom: 4px;
+}
